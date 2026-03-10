@@ -5,8 +5,8 @@ import streamlit as st
 import plotly.express as px
 import os 
 
-st.subheader('Análisis de anuncios de coches x LCES.')
-st.write("Usando un conjunto de datos de anuncios de autos, se crearon dos gráficos a continuación que muestran cómo ciertos atributos impactan las ventas de autos usados.")
+st.subheader('Análisis de anuncios de automóviles x LCES.')
+st.write("Usando un conjunto de datos de anuncios de automóviles, se crearon dos gráficos a continuación que muestran cómo ciertos atributos impactan las ventas de autos usados.")
 
 st.divider()
 
@@ -94,7 +94,7 @@ if plot_two:
     # Utilice el cuadro de selección que permita que los usuarios elijan qué atributo desean utilizar como opción de color.
     # El histograma mostrará el recuento por año del modelo y opción de color.
 
-    option = st.selectbox("You'd Like to see Count of Car Sales By Model Year and..."
+    option = st.selectbox("Le gustaría ver el recuento de ventas de automóviles por año del modelo y..."
                          , ('type', 'paint_color', 'transmission', 'condition')
                          )
     
@@ -110,7 +110,7 @@ if plot_two:
 
     # Configurar parámetros del histograma:
 
-    fig_two = px.histogram(vehicles_filtered, x="model_year", color= option, title= "Histograma de año delmodelo vs. " + option)
+    fig_two = px.histogram(vehicles_filtered, x="model_year", color= option, title= "Histograma de año del modelo vs. " + option)
     
     # Imprime HIstograma:
     
