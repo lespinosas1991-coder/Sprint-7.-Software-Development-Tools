@@ -34,7 +34,7 @@ Una vez compilado y ejecutado el proyecto localmente, se creó una cuenta en Ren
 
 2: Se necesita agregar el archivo de configuración al repositorio de Git. Se crea el directorio .streamlit y se añade allí el archivo config.toml.  Este archivo de configuración le indicará a Render dónde buscar para "escuchar" la aplicación Streamlit al alojarla en sus servidores.
 
-3. Crear un nuevo servicio web vinculado a tu repositorio de GitHub:
+3: Se crear un nuevo servicio web vinculado a tu repositorio de GitHub:
 Se configura el nuevo servicio web de Render. En el comando de compilación, se añade pip install --upgrade pip & pip install -r requirements.txt.
 En el comando de inicio, se añade streamlit run app.py.
 
