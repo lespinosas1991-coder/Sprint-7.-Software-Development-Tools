@@ -1,6 +1,6 @@
-# Repositorio_Proyecto_VII / Herramientas de Desarrollo de Software
+# Repositorio Proyecto VII / Herramientas de Desarrollo de Software
 
-Repositorio de Proyecto 7. DS.
+Repositorio Proyecto VII. DATA SCIENTIST.
 
 -- Herramientas de desarrollo de software. --
 
